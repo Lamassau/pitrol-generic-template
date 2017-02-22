@@ -1,7 +1,9 @@
-var requests = require('./requestshandler')
-var ui = require('./uicomponent')
+const requests = require('./requestshandler')
+const ui = require('./uicomponent')
+const manifest = require('./manifest.json')
 
 module.exports = {
+  manifest: manifest,
   uiComponent: {
     props: {},
     ref: ui.component
