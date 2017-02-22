@@ -11,9 +11,7 @@ module.exports.component = class extends Component
   }
   render () {
     return (
-      <center>
-        <h1>This UI component hasn't been implemented</h1>
-      </center>
+      <h1>This UI component has NOT been implemented</h1>
     )
   }
   componentDidMount () {
