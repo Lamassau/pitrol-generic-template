@@ -6,15 +6,9 @@ module.exports.component = class extends Component
     super(props)
     this.state = {}
   }
-  componentWillMount () {
-    // TODO: Implement
-  }
   render () {
     return (
       <h1>This UI component has NOT been implemented</h1>
     )
-  }
-  componentDidMount () {
-    // TODO: Implement
   }
 }
