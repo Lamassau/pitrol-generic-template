@@ -1,17 +1,17 @@
-{ 
-    "name": "pitrol-generic-plugin",
-     "description": "Generic PiTrol Plugin",
-     "version": "1.0.0",
-     "icon": "",
-     "author": "<First Name> <Last Name>",
-     "repo": "",
-     "license": "",
-     "dependencies": {
-        "core": {
-            "pitrol": "1.0.0",
-                 "hardware": ["zero", "2", "3"],
-                 "node": "^6.0.0"
-        },
-           "plugins": {}
-    }
+{
+  "name": "pitrol-generic-plugin",
+  "description": "Generic PiTrol Plugin",
+  "version": "1.0.0",
+  "icon": "",
+  "author": "<First Name> <Last Name>",
+  "repo": "",
+  "license": "",
+  "dependencies": {
+    "core": {
+        "pitrol": "1.0.0",
+             "hardware": ["zero", "2", "3"],
+             "node": "^6.0.0"
+    },
+       "plugins": {}
   }
+}
