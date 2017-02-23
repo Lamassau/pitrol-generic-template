@@ -6,11 +6,12 @@
      "author": "<First Name> <Last Name>",
      "repo": "",
      "license": "",
-     "dependencies": {   
-        "core": {     
+     "dependencies": {
+        "core": {
             "pitrol": "1.0.0",
                  "hardware": ["zero", "2", "3"],
-                 "node": "^6.0.0"   
+                 "node": "^6.0.0"
         },
-           "plugins": {   } 
+           "plugins": {}
     }
+  }
